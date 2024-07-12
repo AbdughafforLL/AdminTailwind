@@ -2,7 +2,6 @@
 using MVC.Domain.Entities;
 using System.Data.SqlClient;
 using System.Data;
-
 namespace MVC.Infrastructure.Repositories.UserRepositories;
 public class UserRepository(IConfiguration conf) : IUserRepository
 {

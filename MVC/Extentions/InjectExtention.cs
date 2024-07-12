@@ -1,6 +1,5 @@
 ﻿using MVC.Infrastructure.Repositories.UserRepositories;
 using MVC.Infrastructure.Services.AccountServices;
-
 namespace MVC.Extentions;
 public static class InjectExtention
 {

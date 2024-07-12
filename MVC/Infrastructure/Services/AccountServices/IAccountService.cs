@@ -1,7 +1,6 @@
 ﻿using MVC.Domain.DTOs.AccountDTOs;
 using MVC.Domain.Entities;
 using MVC.Domain.Wrappers;
-
 namespace MVC.Infrastructure.Services.AccountServices;
 public interface IAccountService
 {

@@ -1,5 +1,4 @@
 ﻿using System.Data.SqlClient;
-
 namespace MVC.Domain.DTOs;
 public class SqlAdoModel
 {

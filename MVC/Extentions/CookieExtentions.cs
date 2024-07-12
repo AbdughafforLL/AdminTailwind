@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
-
 namespace MVC.Extentions;
 public static class CookieExtentions
 {

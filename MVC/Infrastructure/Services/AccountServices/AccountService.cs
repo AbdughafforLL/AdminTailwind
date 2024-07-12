@@ -5,9 +5,7 @@ using MVC.Domain.Enums;
 using MVC.Domain.Wrappers;
 using MVC.Infrastructure.Repositories.UserRepositories;
 using System.Net;
-
 namespace MVC.Infrastructure.Services.AccountServices;
-
 public class AccountService(IUserRepository repository) : IAccountService
 {
     public async Task<Response<User>> Login(LoginDto model)

@@ -1,5 +1,4 @@
 namespace MVC.Domain.DTOs;
-
 public class ErrorViewModel
 {
     public string? RequestId { get; set; }

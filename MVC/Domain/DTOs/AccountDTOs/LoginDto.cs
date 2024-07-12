@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 namespace MVC.Domain.DTOs.AccountDTOs;
 public class LoginDto
 {

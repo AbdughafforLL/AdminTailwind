@@ -1,5 +1,4 @@
 ﻿using MVC.Domain.Entities;
-
 namespace MVC.Infrastructure.Repositories.UserRepositories;
 public interface IUserRepository
 {
