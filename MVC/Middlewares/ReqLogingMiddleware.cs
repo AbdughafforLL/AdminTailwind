@@ -1,5 +1,5 @@
 ﻿namespace MVC.Middlewares;
-public class ReqMiddleware(RequestDelegate next, ILogger<ReqMiddleware> logger)
+public class ReqLogingMiddleware(RequestDelegate next, ILogger<ReqLogingMiddleware> logger)
 {
     public async Task Invoke(HttpContext context)
     {
